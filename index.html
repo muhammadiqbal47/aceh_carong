@@ -913,7 +913,7 @@
                         <a href="#" class="phase-nav-link" data-phase="phase2">
                             <div class="phase-icon phase2">2</div>
                             <div>
-                                <div>Fase 2: Verifikasi & Validasi</div>
+                                <div>Fase 2: Pembukaan Rekening</div>
                                 <div style="font-size: 0.8rem; color: var(--gray-color);">Multi-level verification</div>
                             </div>
                         </a>
@@ -922,8 +922,8 @@
                         <a href="#" class="phase-nav-link" data-phase="phase3">
                             <div class="phase-icon phase3">3</div>
                             <div>
-                                <div>Fase 3: Pembukaan Rekening & Penyaluran</div>
-                                <div style="font-size: 0.8rem; color: var(--gray-color);">Account opening & distribution</div>
+                                <div>Fase 3: Disbursement Dana</div>
+                                <div style="font-size: 0.8rem; color: var(--gray-color);">Distribution</div>
                             </div>
                         </a>
                     </li>
@@ -932,7 +932,7 @@
                             <div class="phase-icon phase4">4</div>
                             <div>
                                 <div>Fase 4: Transaksi & Penarikan</div>
-                                <div style="font-size: 0.8rem; color: var(--gray-color);">Agen Laku Pandai, Teller & OTP</div>
+                                <div style="font-size: 0.8rem; color: var(--gray-color);">Agen Laku Pandai, Merchant, Teller & ATM</div>
                             </div>
                         </a>
                     </li>
@@ -1191,7 +1191,7 @@
             <div class="phase-content" id="phase2">
                 <div class="phase-content-header">
                     <div>
-                        <h2><i class="fas fa-check-circle"></i> Fase 2: Verifikasi & Validasi</h2>
+                        <h2><i class="fas fa-check-circle"></i> Fase 2: Pembukaan Rekening</h2>
                         <p>Multi-level verification oleh sekolah, dinas kab/kota, dan dinas provinsi</p>
                     </div>
                     <button class="phase-back-btn" data-back="dashboard">
@@ -1201,7 +1201,7 @@
                 <div class="phase-iframe-container">
                     <div class="loading-screen">
                         <div class="loading-spinner"></div>
-                        <p>Memuat Fase 2: Verifikasi & Validasi...</p>
+                        <p>Memuat Fase 2: Pembukaan Rekening...</p>
                     </div>
                 </div>
             </div>
@@ -1210,8 +1210,8 @@
             <div class="phase-content" id="phase3">
                 <div class="phase-content-header">
                     <div>
-                        <h2><i class="fas fa-university"></i> Fase 3: Pembukaan Rekening & Penyaluran</h2>
-                        <p>Account opening massal dan distribusi dana otomatis</p>
+                        <h2><i class="fas fa-university"></i> Fase 3: Disbursement Dana</h2>
+                        <p>Distribusi dana ke rekening siswa</p>
                     </div>
                     <button class="phase-back-btn" data-back="dashboard">
                         <i class="fas fa-arrow-left"></i> Kembali ke Dashboard
@@ -1220,7 +1220,7 @@
                 <div class="phase-iframe-container">
                     <div class="loading-screen">
                         <div class="loading-spinner"></div>
-                        <p>Memuat Fase 3: Pembukaan Rekening & Penyaluran...</p>
+                        <p>Memuat Fase 3: Disbursement Dana...</p>
                     </div>
                 </div>
             </div>
@@ -1230,7 +1230,7 @@
                 <div class="phase-content-header">
                     <div>
                         <h2><i class="fas fa-exchange-alt"></i> Fase 4: Transaksi & Penarikan</h2>
-                        <p>Transaksi melalui Agen Laku Pandai & Teller dengan sistem OTP</p>
+                        <p>Transaksi melalui Agen Laku Pandai/Merchant & Teller/ATM dengan sistem OTP</p>
                     </div>
                     <button class="phase-back-btn" data-back="dashboard">
                         <i class="fas fa-arrow-left"></i> Kembali ke Dashboard
@@ -1481,23 +1481,23 @@
                 <div style="max-width: 1200px; margin: 0 auto;">
                     <div style="margin-bottom: 30px;">
                         <h2 style="color: var(--phase2-color); margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-                            <i class="fas fa-check-circle"></i> Fase 2: Verifikasi & Validasi
+                            <i class="fas fa-check-circle"></i> Fase 2: Pembukaan Rekening
                         </h2>
                         <p style="color: var(--gray-color); font-size: 1.1rem;">
-                            Proses verifikasi 4 tingkat dengan kontrol kualitas data
+                            Proses pembukaan rekening dengan kontrol kualitas data
                         </p>
                     </div>
 
                     <div style="background: white; border-radius: var(--border-radius); padding: 30px; box-shadow: var(--box-shadow); margin-bottom: 30px;">
-                        <h3 style="color: var(--phase2-color); margin-bottom: 20px; display: flex; align-items: center; gap: 10px;"><i class="fas fa-sitemap"></i> Alur Verifikasi 4 Tingkat</h3>
+                        <h3 style="color: var(--phase2-color); margin-bottom: 20px; display: flex; align-items: center; gap: 10px;"><i class="fas fa-sitemap"></i> Alur Pembukaan Rekening</h3>
 
                         <div style="display: flex; justify-content: space-between; margin: 40px 0; gap: 10px; flex-wrap: wrap;">
                             <div style="text-align: center; width: 22%; min-width: 180px;">
                                 <div style="background: #166088; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-size: 1.5rem;">
                                     <i class="fas fa-school"></i>
                                 </div>
-                                <h3 style="color: #166088; margin: 0;">Tingkat 1</h3>
-                                <h4>Verifikasi Sekolah</h4>
+                                <h3 style="color: #166088; margin: 0;">Opening Account</h3>
+                                <h4>Pembukaan Rekening mandiri</h4>
                                 <div style="margin-top: 10px; padding: 5px 10px; background: #e6f2ff; border-radius: 5px;">
                                 </div>
                             </div>
@@ -1506,8 +1506,8 @@
                                 <div style="background: #166088; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-size: 1.5rem;">
                                     <i class="fas fa-city"></i>
                                 </div>
-                                <h3 style="color: #166088; margin: 0;">Tingkat 2</h3>
-                                <h4>Validasi Kab/Kota</h4>
+                                <h3 style="color: #166088; margin: 0;">Opening Account</h3>
+                                <h4>Pembukaan Rekening Kolektif</h4>
                                 <div style="margin-top: 10px; padding: 5px 10px; background: #e6f2ff; border-radius: 5px;">
                                 </div>
                             </div>
@@ -1516,18 +1516,8 @@
                                 <div style="background: #166088; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-size: 1.5rem;">
                                     <i class="fas fa-building"></i>
                                 </div>
-                                <h3 style="color: #166088; margin: 0;">Tingkat 3</h3>
-                                <h4>Approval Provinsi</h4>
-                                <div style="margin-top: 10px; padding: 5px 10px; background: #e6f2ff; border-radius: 5px;">
-                                </div>
-                            </div>
-
-                            <div style="text-align: center; width: 22%; min-width: 180px;">
-                                <div style="background: #166088; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-size: 1.5rem;">
-                                    <i class="fas fa-university"></i>
-                                </div>
-                                <h3 style="color: #166088; margin: 0;">Tingkat 4</h3>
-                                <h4>Generasi Final</h4>
+                                <h3 style="color: #166088; margin: 0;">Distribution</h3>
+                                <h4>Distribusi Tabungan</h4>
                                 <div style="margin-top: 10px; padding: 5px 10px; background: #e6f2ff; border-radius: 5px;">
                                 </div>
                             </div>
@@ -1548,10 +1538,10 @@
                 <div style="max-width: 1200px; margin: 0 auto;">
                     <div style="margin-bottom: 30px;">
                         <h2 style="color: var(--phase3-color); margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-                            <i class="fas fa-university"></i> Fase 3: Pembukaan Rekening & Penyaluran
+                            <i class="fas fa-university"></i> Fase 3: Disbursement Dana
                         </h2>
                         <p style="color: var(--gray-color); font-size: 1.1rem;">
-                            Proses pembukaan rekening massal dan distribusi dana bansos
+                            Proses distribusi dana bansos ke rekening siswa secara otomatis setelah verifikasi
                         </p>
                     </div>
                     
@@ -1572,7 +1562,7 @@
                             <i class="fas fa-exchange-alt"></i> Fase 4: Transaksi & Penarikan
                         </h2>
                         <p style="color: var(--gray-color); font-size: 1.1rem;">
-                            Transaksi melalui Agen Laku Pandai & Teller dengan sistem OTP
+                            Transaksi melalui Agen Laku Pandai/Merchant & Teller/ATM dengan sistem OTP
                         </p>
                     </div>
                     
@@ -3208,11 +3198,11 @@
                     htmlContent = getFullPhase1HTML();
                     break;
                 case 'phase2-detail':
-                    title = 'Fase 2: Verifikasi & Validasi - Detail';
+                    title = 'Fase 2: Pembukaan Rekening - Detail';
                     htmlContent = getFullPhase2HTML();
                     break;
                 case 'phase3-detail':
-                    title = 'Fase 3: Pembukaan Rekening & Penyaluran - Detail';
+                    title = 'Fase 3: Disbursement Dana - Detail';
                     htmlContent = getFullPhase3HTML();
                     break;
                 case 'phase4-detail':
@@ -3238,7 +3228,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fase 3: Pembukaan Rekening & Penyaluran - Sistem Bansos Siswa Aceh</title>
+    <title>Fase 3: Disbursement Dana - Sistem Bansos Siswa Aceh</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -3836,8 +3826,8 @@
             <div class="phase-title-container">
                 <div class="phase-number">3</div>
                 <div class="phase-title-content">
-                    <h1>Fase 3: Pembukaan Rekening & Penyaluran Dana</h1>
-                    <p>Proses pembukaan rekening massal dan distribusi dana bansos ke 44.320 siswa Aceh secara otomatis</p>
+                    <h1>Fase 3: Disbursement Dana</h1>
+                    <p>Proses distribusi dana bansos ke 44.320 siswa Aceh secara otomatis</p>
                 </div>
             </div>
         </div>
@@ -3881,7 +3871,7 @@
         <div class="process-flow-container">
             <div class="section-title">
                 <i class="fas fa-sitemap"></i>
-                Alur Proses Pembukaan Rekening Massal
+                Alur Proses Disbursement Dana
             </div>
             
             <div class="process-timeline">
@@ -3928,20 +3918,20 @@
                         <div class="process-content">
                             <div class="process-title">
                                 <i class="fas fa-cogs"></i>
-                                Proses Batch di Core Banking System
+                                Proses Disbursement pada Core Banking System
                             </div>
                             <div class="process-description">
-                                Bank Aceh melakukan verifikasi dan validasi data, pengecekan data error, double CIF, dll. Setelah Data Valid, sistem core banking membuka rekening massal dengan data yang sudah valid
+                                Bank Aceh melakukan verifikasi dan validasi data, pengecekan data error, double rekening, dll. Setelah Data Valid, sistem core banking melakukan disbursement massal ke rekening siswa secara sistem berdasarkan surat Dinas Pendidikan Aceh dan alokasi dana yang sudah ditentukan
                             </div>
                             <div class="process-details">
-                                <strong>Spesifikasi Rekening:</strong><br>
-                                • Tanpa kartu ATM<br>
+                                <strong>Spesifikasi Rekening & Data:</strong><br>
+                                • Dengan kartu ATM<br>
                                 • Limit transaksi khusus<br>
                                 • OTP mandatory<br>
                                 • Tanpa Biaya Admin Bulanan<br>
                             </div>
                             <div style="margin-top: 10px; padding: 5px 10px; background-color: #e6f2ff; border-radius: 20px; display: inline-block; font-size: 0.85rem;">
-                                <i class="fas fa-server"></i> Core Banking System
+                                <i class="fas fa-server"></i> Core Banking Automated System
                             </div>
                         </div>
                     </div>
@@ -3949,85 +3939,29 @@
                     <!-- Step 3 -->
                     <div class="process-item">
                         <div class="process-step">
-                            <div class="step-circle" onclick="showProcessDetail(3)">
-                                <div class="step-number">3.3</div>
-                                <div class="step-label">Funding</div>
-                            </div>
-                        </div>
-                        
-                        <div class="process-content">
-                            <div class="process-title">
-                                <i class="fas fa-money-check-alt"></i>
-                                Penyaluran Dana ke Rekening Kolektif
-                            </div>
-                            <div class="process-description">
-                                Pemerintah/Dinas Pendidikan mentransfer dana bansos ke rekening kolektif Bank Aceh
-                            </div>
-                            <div class="process-details">
-                                <strong>Metode:</strong> Intra Bank/RTGS/BI-FAST<br>
-                                <strong>Rekening:</strong> 010.01.99.1234567890 (Kolektif Bansos)<br>
-                                <strong>Verifikasi:</strong> 3-level approval
-                            </div>
-                            <div style="margin-top: 10px; padding: 5px 10px; background-color: #fff3cd; border-radius: 20px; display: inline-block; font-size: 0.85rem;">
-                                <i class="fas fa-landmark"></i> Dinas Pendidikan
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Step 4 -->
-                    <div class="process-item">
-                        <div class="process-step">
-                            <div class="step-circle" onclick="showProcessDetail(4)">
-                                <div class="step-number">3.4</div>
-                                <div class="step-label">Distribution</div>
-                            </div>
-                        </div>
-                        
-                        <div class="process-content">
-                            <div class="process-title">
-                                <i class="fas fa-exchange-alt"></i>
-                                Distribusi Otomatis ke Rekening Siswa
-                            </div>
-                            <div class="process-description">
-                                Sistem melakukan pencairan otomatis ke masing-masing rekening siswa sesuai alokasi
-                            </div>
-                            <div class="process-details">
-                                <strong>Teknologi:</strong> Batch processing script<br>
-                                <strong>Kecepatan:</strong> 2,000 rekening/menit<br>
-                                <strong>Monitoring:</strong> Real-time dashboard
-                            </div>
-                            <div style="margin-top: 10px; padding: 5px 10px; background-color: #f8d7da; border-radius: 20px; display: inline-block; font-size: 0.85rem;">
-                                <i class="fas fa-robot"></i> Automated System
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Step 5 -->
-                    <div class="process-item">
-                        <div class="process-step">
                             <div class="step-circle" onclick="showProcessDetail(5)">
-                                <div class="step-number">3.5</div>
-                                <div class="step-label">Pencairan Dana</div>
+                                <div class="step-number">3.3</div>
+                                <div class="step-label">Penarikan Dana</div>
                             </div>
                         </div>
                         
                         <div class="process-content">
                             <div class="process-title">
                                 <i class="fas fa-money-bill-wave"></i>
-                                Pencairan Dana dan Belanja Barang
+                                Penarikan Dana dan Belanja Barang
                             </div>
                             <div class="process-description">
-                                Siswa/orang tua dapat melakukan pencairan dana di Teller Bank Aceh atau Agen Laku Pandai dengan verifikasi OTP, atau berbelanja barang kebutuhan sekolah
+                                Siswa/orang tua dapat melakukan penarikan dana di Teller Bank Aceh/ATM atau Agen Laku Pandai dengan verifikasi OTP, atau berbelanja barang kebutuhan sekolah pada agent Laku Pandai/Merchant yang sudah terdaftar
                             </div>
                             <div class="process-details">
-                                <strong>Opsi Pencairan:</strong><br>
-                                • Teller Bank Aceh (Max 50%)<br>
-                                • Agen Laku Pandai (max 50%)<br>
+                                <strong>Opsi Penarikan:</strong><br>
+                                • Tunai: Teller/ATM/Agen Bank Aceh (max 40%)<br>
+                                • Belanja : Agen/Merchant Laku Pandai (max 60%)<br>
                                 <strong>Belanja Barang:</strong> Buku, seragam, alat tulis via Agen<br>
                                 <strong>Verifikasi:</strong> OTP 6-digit ke nomor orang tua
                             </div>
                             <div style="margin-top: 10px; padding: 5px 10px; background-color: #d4edda; border-radius: 20px; display: inline-block; font-size: 0.85rem;">
-                                <i class="fas fa-store"></i> Agen Laku Pandai & Teller
+                                <i class="fas fa-store"></i> Agen Laku Pandai, Merchant, Teller/ATM Bank Aceh
                             </div>
                         </div>
                     </div>
@@ -4230,22 +4164,22 @@
         
         function getFullPhase2HTML() {
             return `
-                <h1><i class="fas fa-check-circle"></i> Fase 2: Verifikasi & Validasi</h1>
-                <p style="color: #666; margin-bottom: 30px;">Proses verifikasi multi-level oleh sekolah dan dinas pendidikan</p>
+                <h1><i class="fas fa-check-circle"></i> Fase 2: Pembukaan Rekening</h1>
+                <p style="color: #666; margin-bottom: 30px;">Proses verifikasi Formulir dan Pembukaan Rekening</p>
                 
                 <div class="card">
-                    <h2><i class="fas fa-sitemap"></i> Alur Verifikasi 4 Tingkat</h2>
+                    <h2><i class="fas fa-sitemap"></i> Alur Pembukaan Rekening</h2>
                     
                     <div style="display: flex; justify-content: space-between; margin: 40px 0;">
                         <div style="text-align: center; width: 22%;">
                             <div style="background: #166088; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-size: 1.5rem;">
                                 <i class="fas fa-school"></i>
                             </div>
-                            <h3 style="color: #166088;">Tingkat 1</h3>
-                            <h4>Verifikasi Sekolah</h4>
-                            <p style="color: #666; font-size: 0.9rem;">Admin sekolah memverifikasi data siswa</p>
+                            <h3 style="color: #166088;">Pembukaan Rekening Bank Aceh secara mandiri</h3>
+                            <h4>Verifikasi Formulir</h4>
+                            <p style="color: #666; font-size: 0.9rem;">Bank Aceh melakukan pembukaan rekening untuk siswa/i (Mandiri: Siswa -> Pembukaan Rekening -> Lapor Sekolah -> Sekolah input pada sibay.id)</p>
                             <div style="margin-top: 10px; padding: 5px 10px; background: #e6f2ff; border-radius: 5px;">
-                                <strong>Waktu:</strong> 1-3 hari
+                                <strong> Account Opening </strong>
                             </div>
                         </div>
                         
@@ -4253,11 +4187,11 @@
                             <div style="background: #166088; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-size: 1.5rem;">
                                 <i class="fas fa-city"></i>
                             </div>
-                            <h3 style="color: #166088;">Tingkat 2</h3>
-                            <h4>Validasi Kab/Kota</h4>
-                            <p style="color: #666; font-size: 0.9rem;">Dinas Pendidikan Kabupaten/Kota</p>
+                            <h3 style="color: #166088;">Pembukaan Rekening Bank Aceh secara kolektif</h3>
+                            <h4>Verifikasi Formulir Kolektif</h4>
+                            <p style="color: #666; font-size: 0.9rem;">Pembukaan rekening massal otomatis untuk siswa/i (Kolektif: Sekolah mendata siswa/i -> Isi Formulir -> Pembukaan Rekening Kolektif oleh Bank -> Distribusi kepada siswa/i -> Lapor Sekolah -> Sekolah input pada sibay.id)</p>
                             <div style="margin-top: 10px; padding: 5px 10px; background: #e6f2ff; border-radius: 5px;">
-                                <strong>Waktu:</strong> 2-4 hari
+                                <strong>Account Opening</strong>
                             </div>
                         </div>
                         
@@ -4265,23 +4199,11 @@
                             <div style="background: #166088; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-size: 1.5rem;">
                                 <i class="fas fa-building"></i>
                             </div>
-                            <h3 style="color: #166088;">Tingkat 3</h3>
-                            <h4>Approval Provinsi</h4>
-                            <p style="color: #666; font-size: 0.9rem;">Dinas Pendidikan Provinsi Aceh</p>
+                            <h3 style="color: #166088;">KYC dan Distribusi Tabungan</h3>
+                            <h4>Distribusi Tabungan</h4>
+                            <p style="color: #666; font-size: 0.9rem;">Cabang Pengelola Melakukan KYC dan Distribusi Tabungan</p>
                             <div style="margin-top: 10px; padding: 5px 10px; background: #e6f2ff; border-radius: 5px;">
-                                <strong>Waktu:</strong> 1-2 hari
-                            </div>
-                        </div>
-                        
-                        <div style="text-align: center; width: 22%;">
-                            <div style="background: #166088; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-size: 1.5rem;">
-                                <i class="fas fa-university"></i>
-                            </div>
-                            <h3 style="color: #166088;">Tingkat 4</h3>
-                            <h4>Generasi Final</h4>
-                            <p style="color: #666; font-size: 0.9rem;">Sistem terintegrasi Bank Aceh</p>
-                            <div style="margin-top: 10px; padding: 5px 10px; background: #e6f2ff; border-radius: 5px;">
-                                <strong>Waktu:</strong> Real-time
+                                <strong> KYC & Distribution</strong>
                             </div>
                         </div>
                     </div>
@@ -4317,8 +4239,8 @@
         
         function getFullPhase3HTML() {
             return `
-                <h1><i class="fas fa-university"></i> Fase 3: Pembukaan Rekening & Penyaluran</h1>
-                <p style="color: #666; margin-bottom: 30px;">Proses pembukaan rekening massal dan distribusi dana bansos</p>
+                <h1><i class="fas fa-university"></i> Fase 3: Disbursement Dana</h1>
+                <p style="color: #666; margin-bottom: 30px;">Proses pelimpahan dana bansos kepada siswa Yatim/Piatu</p>
                 
                 <div class="card">
                     <h2><i class="fas fa-project-diagram"></i> Alur Dana Bansos</h2>
@@ -4392,7 +4314,7 @@
         function getFullPhase4HTML() {
             return `
                 <h1><i class="fas fa-exchange-alt"></i> Fase 4: Transaksi & Penarikan</h1>
-                <p style="color: #666; margin-bottom: 30px;">Transaksi melalui Agen Laku Pandai & Teller dengan sistem OTP</p>
+                <p style="color: #666; margin-bottom: 30px;">Transaksi melalui Agen Laku Pandai/Merchant & Teller/ATM dengan sistem OTP</p>
                 
                 <div class="card">
                     <h2><i class="fas fa-store"></i> Proses Transaksi di Agen Laku Pandai</h2>
@@ -4403,7 +4325,7 @@
                             <h3 style="color: #ff6b35; margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
                                 <i class="fas fa-money-bill-wave"></i> Penarikan Tunai
                             </h3>
-                            <p style="color: #666; margin-bottom: 20px;">Maksimal 50% dari total dana</p>
+                            <p style="color: #666; margin-bottom: 20px;">Maksimal 40% dari total dana</p>
                             
                             <div style="background: white; padding: 20px; border-radius: 5px; margin-bottom: 15px;">
                                 <h4>Step by Step:</h4>
@@ -4422,7 +4344,7 @@
                             <h3 style="color: #009e4f; margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
                                 <i class="fas fa-shopping-cart"></i> Pembelian Barang
                             </h3>
-                            <p style="color: #666; margin-bottom: 20px;">Pembelian barang dapat dilakukan melalui Agen ActionLink diantaranya: Buku, seragam, alat tulis sekolah</p>
+                            <p style="color: #666; margin-bottom: 20px;">Pembelian barang dapat dilakukan melalui Agen ActionLink/Merchant diantaranya: Buku, seragam, alat tulis sekolah</p>
                             
                             <div style="background: white; padding: 20px; border-radius: 5px;">
                                 <h4>Katalog Barang:</h4>
